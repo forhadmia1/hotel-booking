@@ -9,7 +9,7 @@ const Hotels = () => {
     return (
         <Container className='mb-5'>
             <h1 className='text-center fw-bold mb-5'>Our Hotels</h1>
-            <Row xs={1} md={2} className="g-4">
+            <Row xs={1} md={3} className="g-4">
                 {
                     hotels.map(hotel => <Hotel
                         key={hotel.id}
